@@ -16,4 +16,5 @@
 -- INSERT INTO celebs (id, name, age)
 -- VALUES (4, 'Taylor Swift', 26)
 
-SELECT * FROM celebs;
+-- SELECT * FROM celebs;
+SELECT name FROM celebs;
