@@ -27,3 +27,8 @@
  WHERE id = 4;
 
  SELECT * FROM celebs;
+
+ DELETE FROM celebs
+ WHERE twitter_handle IS NULL;
+
+ 
