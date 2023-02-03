@@ -1,0 +1,5 @@
+id,name,age,twitter_handle
+1,Justin Bieber,22,NULL
+2,Beyonce Knowles,33,NULL
+3,Jeremy Lin,26,NULL
+4,Taylor Swift,26,NULL

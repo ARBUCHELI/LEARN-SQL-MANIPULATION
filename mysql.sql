@@ -17,4 +17,8 @@
 -- VALUES (4, 'Taylor Swift', 26)
 
 -- SELECT * FROM celebs;
-SELECT name FROM celebs;
+-- SELECT name FROM celebs;
+ALTER TABLE celebs
+ADD COLUMN twitter_handle TEXT;
+
+SELECT * FROM celebs;
