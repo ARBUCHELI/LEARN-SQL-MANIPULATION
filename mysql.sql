@@ -18,7 +18,12 @@
 
 -- SELECT * FROM celebs;
 -- SELECT name FROM celebs;
-ALTER TABLE celebs
-ADD COLUMN twitter_handle TEXT;
+-- ALTER TABLE celebs
+-- ADD COLUMN twitter_handle TEXT;
 
-SELECT * FROM celebs;
+-- SELECT * FROM celebs;
+ UPDATE celebs
+ SET twitter_handle = '@taylorswift13'
+ WHERE id = 4;
+
+ SELECT * FROM celebs;
